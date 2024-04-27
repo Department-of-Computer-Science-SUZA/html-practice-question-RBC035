@@ -1,0 +1,87 @@
+.container{
+    text-align: center;
+}
+
+ .mono{
+   font-size: 12rem;
+}
+
+.di, .nano{
+    color: rgba(240, 26, 18, 0.877);
+}
+.try{
+    color: rgb(226, 168, 9);
+}
+
+.hexa{
+    color: rgba(7, 143, 7, 0.842);
+}
+
+.di, .try, .tetra, .hexa, .nano{
+    font-size: 8rem;
+}
+
+.mono, .tetra{
+    color: rgba(16, 16, 194, 0.801);
+}
+
+.di , .mono, .try, .tetra, .hexa, .nano, .mt-4{
+    font-weight: bold;
+}
+
+.mt-4{
+    margin-left: 21rem;
+    margin-top: -2.5rem;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    
+}
+
+.input{
+ 
+    width: 55%;
+}
+
+.btn, .input{
+    border: .1rem solid rgb(194, 192, 192);
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+.img{
+   height: 2%;
+}
+
+.question-2, .leads{
+    border: .1rem solid rgb(34, 34, 114);
+    padding: 1rem;
+    width: 60%;
+    margin-left: 8rem;
+    display: flex;
+}
+
+.btn-1{
+    margin-right: 1rem;
+}
+
+.ul{
+    color: rgb(224, 224, 224);
+    background-color: rgb(25, 87, 87);
+    width: 20%;
+    padding: 5px;
+    
+
+}
+
+.ol{
+    background-color: blueviolet;
+    width: 20%;
+}
+
+.dl{
+    background-color: rgb(119, 11, 96);
+    width: 20%;
+    color: white;
+}
+
+

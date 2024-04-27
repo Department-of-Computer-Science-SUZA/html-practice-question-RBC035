@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question one</title>
+</head>
+<body style="background-image: url('img/background.png');">
+    <pre>
+        <code style="color: rgb(218, 209, 209);">
+            public class Complex
+            {
+                private double realPart;
+                private double imaginaryPart;
+            
+                public Complex() {
+                    this(0.0, 0.0);
+                }
+            
+                public Complex(double realPart, double imaginaryPart) {
+                    this.realPart = realPart;
+                    this.imaginaryPart = imaginaryPart;
+                }
+            
+                public Complex add(Complex other) {
+                    double real = this.realPart + other.realPart;
+                    double imaginary = this.imaginaryPart + other.imaginaryPart;
+                    return new Complex(real, imaginary);
+                }
+            
+                 public Complex subtract(Complex other) {
+                    double real = this.realPart - other.realPart;
+                    double imaginary = this.imaginaryPart - other.imaginaryPart;
+                    return new Complex(real, imaginary);
+                }
+            
+                public void print() {
+                    System.out.println("(" + realPart + ", " + imaginaryPart + ")");
+                }
+            }
+        </code>
+    </pre>
+</body>
+</html>
